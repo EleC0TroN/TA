@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":  { "model": "taigaexpansion:block/rotten_log" },
+        "axis=z":   { "model": "taigaexpansion:block/rotten_log", "x": 90 },
+        "axis=x":   { "model": "taigaexpansion:block/rotten_log", "x": 90, "y": 90 }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "taigaexpansion:block/green_lichen" },
+        "facing=east":  { "model": "taigaexpansion:block/green_lichen", "y": 90 },
+        "facing=south": { "model": "taigaexpansion:block/green_lichen", "y": 180 },
+        "facing=west":  { "model": "taigaexpansion:block/green_lichen", "y": 270 }
+    }
+}

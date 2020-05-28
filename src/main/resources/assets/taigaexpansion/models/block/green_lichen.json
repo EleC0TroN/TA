@@ -1,0 +1,17 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "taigaexpansion:block/green_lichen",
+        "texture": "taigaexpansion:block/green_lichen"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 15.9 ],
+            "to": [ 16, 16, 15.9 ],
+            "shade": true,
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+            }
+        }
+    ]
+}
