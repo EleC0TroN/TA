@@ -1,16 +1,19 @@
 {
  "entity.taigaexpansion.brown_bear": "Бурый медведь",
+ "effect.taigaexpansion.cheerfulness": "Бодрость",
 
 //Items
  "item.taigaexpansion.cone": "Еловая шишка",
  "item.taigaexpansion.fur": "Мех",
  "item.taigaexpansion.bear_egg": "Яйцо призыва бурого медведя",
+ "item.taigaexpansion.tea_bowl": "Чай",
+ "item.taigaexpansion.dried_herbs": "Сушенные травы",
 
 //Blocks
  "block.taigaexpansion.bergenia": "Бергения",
  "block.taigaexpansion.grey_lichen": "Серый лишайник",
  "block.taigaexpansion.green_lichen": "Зеленый лишайник",
- "block.taigaexpansion.mini_cauldron": "Котелок",
+ "block.taigaexpansion.tea_pot": "Котелок",
  "block.taigaexpansion.cones_bunch": "Связка шишек",
  "block.taigaexpansion.rotten_log": "Гнилая древесина"
 }

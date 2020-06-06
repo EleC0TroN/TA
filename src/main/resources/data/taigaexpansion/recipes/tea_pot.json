@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "$"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bucket"
+    },
+    "$": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "taigaexpansion:tea_pot",
+    "count": 1
+  }
+}

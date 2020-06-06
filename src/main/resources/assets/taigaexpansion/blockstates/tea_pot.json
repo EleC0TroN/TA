@@ -1,0 +1,8 @@
+{
+    "variants": {
+      "level=0": { "model": "taigaexpansion:block/tea_pot_empty" },
+	  "level=1": { "model": "taigaexpansion:block/tea_pot_water" },
+	  "level=2": { "model": "taigaexpansion:block/tea_pot_tea" },
+      "level=3": { "model": "taigaexpansion:block/tea_pot_empty" }
+    }
+}

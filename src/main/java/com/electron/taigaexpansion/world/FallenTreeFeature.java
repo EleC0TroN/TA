@@ -29,13 +29,13 @@ public class FallenTreeFeature extends Feature<NoFeatureConfig> {
         int f = rand.nextInt(10);
         int c = rand.nextInt(6);
         int y = 0;
-        if (c > 2 && f >= 5) {
+        if (c > 2 && f >= 6) {
             for (int j = 0; j < c; ++j) {
                 if (t >= 2) {
                     BlockPos blockpos = pos.add(1 * y, 0, 0);
                     if (worldIn.isAirBlock(blockpos.up()) && worldIn.getBlockState(blockpos.down()).getBlock() == Blocks.PODZOL || worldIn.getBlockState(blockpos.down()).getBlock() == Blocks.COARSE_DIRT || worldIn.getBlockState(blockpos).getBlock() == Blocks.WATER && worldIn.getBlockState(blockpos.down()).getBlock() != Blocks.WATER) {
                         worldIn.setBlockState(blockpos, logstate.with(LogBlock.AXIS, Direction.Axis.X), 2);
-                    } else if (worldIn.isAirBlock(blockpos) && worldIn.getBlockState(blockpos.down(1)).getBlock() == Blocks.PODZOL || worldIn.getBlockState(blockpos.down(1)).getBlock() == Blocks.COARSE_DIRT || worldIn.getBlockState(blockpos.down()).getBlock() == Blocks.WATER && worldIn.getBlockState(blockpos.down(1)).getBlock() != Blocks.WATER) {
+                    } else if (worldIn.isAirBlock(blockpos.up()) && worldIn.getBlockState(blockpos.down(1)).getBlock() == Blocks.PODZOL || worldIn.getBlockState(blockpos.down(1)).getBlock() == Blocks.COARSE_DIRT || worldIn.getBlockState(blockpos.down()).getBlock() == Blocks.WATER && worldIn.getBlockState(blockpos.down(1)).getBlock() != Blocks.WATER) {
                         worldIn.setBlockState(blockpos.down(), logstate.with(LogBlock.AXIS, Direction.Axis.X), 2);
                     }
                     ++i;
@@ -44,7 +44,7 @@ public class FallenTreeFeature extends Feature<NoFeatureConfig> {
                     BlockPos blockpos_m = pos.add(0, 1, 5);
                     if (worldIn.isAirBlock(blockpos.up()) && worldIn.getBlockState(blockpos.down()).getBlock() == Blocks.PODZOL || worldIn.getBlockState(blockpos.down()).getBlock() == Blocks.COARSE_DIRT || worldIn.getBlockState(blockpos).getBlock() == Blocks.WATER && worldIn.getBlockState(blockpos.down()).getBlock() != Blocks.WATER) {
                         worldIn.setBlockState(blockpos, logstate.with(LogBlock.AXIS, Direction.Axis.Z), 2);
-                    } else if (worldIn.isAirBlock(blockpos) && worldIn.getBlockState(blockpos.down(1)).getBlock() == Blocks.PODZOL || worldIn.getBlockState(blockpos.down(1)).getBlock() == Blocks.COARSE_DIRT || worldIn.getBlockState(blockpos.down()).getBlock() == Blocks.WATER && worldIn.getBlockState(blockpos.down(1)).getBlock() != Blocks.WATER) {
+                    } else if (worldIn.isAirBlock(blockpos.up()) && worldIn.getBlockState(blockpos.down(1)).getBlock() == Blocks.PODZOL || worldIn.getBlockState(blockpos.down(1)).getBlock() == Blocks.COARSE_DIRT || worldIn.getBlockState(blockpos.down()).getBlock() == Blocks.WATER && worldIn.getBlockState(blockpos.down(1)).getBlock() != Blocks.WATER) {
                         worldIn.setBlockState(blockpos.down(), logstate.with(LogBlock.AXIS, Direction.Axis.Z), 2);
                     }
                     ++i;

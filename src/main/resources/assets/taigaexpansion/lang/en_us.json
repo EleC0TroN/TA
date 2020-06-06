@@ -1,16 +1,19 @@
 {
  "entity.taigaexpansion.brown_bear": "Brown Bear",
+ "effect.taigaexpansion.cheerfulness": "Cheerfulness",
 
 //Items
  "item.taigaexpansion.cone": "Spruce Cone",
  "item.taigaexpansion.fur": "Fur",
  "item.taigaexpansion.bear_egg": "Brown Bear Spawn Egg",
+ "item.taigaexpansion.tea_bowl": "Tea",
+ "item.taigaexpansion.dried_herbs": "Dried Herbs",
 
 //Blocks
  "block.taigaexpansion.bergenia": "Bergenia",
  "block.taigaexpansion.grey_lichen": "Grey Lichen",
  "block.taigaexpansion.green_lichen": "Green Lichen",
- "block.taigaexpansion.mini_cauldron": "Tea Pot",
+ "block.taigaexpansion.tea_pot": "Tea Pot",
  "block.taigaexpansion.cones_bunch": "Cones Bunch",
  "block.taigaexpansion.rotten_log": "Rotten Log"
 }
